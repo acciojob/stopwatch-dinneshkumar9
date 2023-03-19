@@ -10,9 +10,12 @@ let seconds = 0;
 let minutes = 0;
 let hours = 0;
 let interval;
-
+// Disable pause and stop buttons initially
+  pauseBtn.disabled = true;
+  stopBtn.disabled = true;
 // Function to start the stopwatch
 function start() {
+	
   // Disable the start button and enable pause and stop buttons
   startBtn.disabled = true;
   pauseBtn.disabled = false;
