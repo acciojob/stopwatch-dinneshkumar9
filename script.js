@@ -72,3 +72,6 @@ function updateTime() {
   // Update the time display
   timeDisplay.textContent = timeString;
 }
+
+updateTime(); // call the updateTime function once to display the initial time
+
